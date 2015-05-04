@@ -11,6 +11,9 @@ x2 = int(raw_input('Digite a coordenada X2 '))
 y2 = int(raw_input('Digite a coordenada Y2 '))
 print 'A distancia entre os pontos eh',distancia(x1,x2,y1,y2)
 
+# Nota: 1.0
+# Good job!
+
 #ex2
 from math import *
 lista = [(0,0),(2,4),(3,1),(-4,-6),(-7,-5)]
@@ -28,9 +31,11 @@ def maiordist(lista):
             if (novadist > distancia):
                 distancia = novadist
     print distancia
-                
-            
-maiordist(lista) 
+
+# Nota: 1.0
+# Você deveria ter utilizado a função distancia ;)
+
+maiordist(lista)
 
 #ex3
 from math import *
@@ -49,6 +54,9 @@ y2 = int(raw_input('Digite a coordenada Y2 '))
 polar(x1,y1)
 polar(x2,y2)
 
+# Nota: 0.5
+# Era pra calcular as coordenadas do vetor formado entre os dois pontos!
+
 #ex4
 from math import *
 
@@ -58,11 +66,14 @@ def retangulo(A,B,C):
     else:
         area = A*B/2
         print 'A area eh: ',area
-    
+
 A = int(raw_input('Digite um valor A: '))
 B = int(raw_input('Digite um valor B: '))
 C = int(raw_input('Digite um valor C: '))
 retangulo(A,B,C)
+
+# Nota: 1.0
+# Good job!
 
 #ex5
 from math import *
@@ -86,9 +97,12 @@ def geo(x,y,z):
     print lon, lat, h
 
 
-    
+
 x = float(raw_input('Digite a coordenada X: '))
 y = float(raw_input('Digite a coordenada Y: '))
 z = float(raw_input('Digite a coordenada Z: '))
 geo(x,y,z)
 
+# Nota: 1.0
+# Dica, não precisava repetir a função aux e teta, bastava colocalas antes do
+# N e h
