@@ -28,3 +28,7 @@ while (nota >= 0):
     listanotas.append(nota)
 print ('A media e: {0}'.format (media(listanotas[:-1])))
 print ('A maior nota e: {0}'.format (maior))
+
+#Nota: 1.0
+#Comentario: Valia 1.0, mas dei mais 0.1 por calcular a maior nota em uma unica
+#            linha, porem retirei 0.1 porque media eh um valor float
